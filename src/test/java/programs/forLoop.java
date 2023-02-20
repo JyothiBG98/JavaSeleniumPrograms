@@ -15,6 +15,10 @@ public class forLoop {
         To check whether the given name is found or not.
          */
         String names[]={"Aravind","Jyothi","Janu","Druthi","Shresta"};
+        /*
+        Syntax for foreach loop
+        for(data type reference variable:array name)
+         */
         for(String ref:names){
             if(ref=="Manu") {
                 System.out.println(ref);}
